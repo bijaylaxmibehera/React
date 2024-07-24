@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React</title>
+  </head>
+  <body>
+    <div>
+      <h1>Hello</h1>
+    </div>
+    <div id="root">
+      <p>Rendering</p>
+    </div>
+
+    <!-- javascript way for DOM manipulation -->
+    <!-- <script>
+        const root=document.getElementById("root");
+        // const heading=document.createElement("h2");
+        // heading.textContent="Good morning everyone!!";
+        // root.appendChild(heading);
+
+        root.innerHTML="<h2>Good morning everyone!!</h2>"
+        
+    </script> -->
+
+    <!-- Update DOM using react -->
+
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
